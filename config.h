@@ -17,7 +17,7 @@ static const char col_gray1[] = "#222222";
 static const char col_gray2[] = "#444444";
 static const char col_gray3[] = "#bbbbbb";
 static const char col_gray4[] = "#eeeeee";
-static const char col_cyan[] = "#f38ba8"; /* #cba6f7 #94e2d5 #f38ba8 */
+static const char col_cyan[] = "#94e2d5"; /* #cba6f7 #94e2d5 #f38ba8 */
 static const char *colors[][3] = {
     /*                  fg         bg         border   */
     [SchemeNorm]     = {col_gray3, col_gray1, col_gray2},
@@ -102,7 +102,7 @@ static const char *dmenucmd[] = {"rofi",
     "~/.local/share/rofi/windows11-list-dark.rasi",
     NULL};
 // static const char *dmenucmd[] = { "rofi", "-show", "drun", NULL };
-static const char *termcmd[] = {"alacritty", NULL};
+static const char *termcmd[] = {"ghostty", NULL};
 static const char *termcmd2[] = {"kitty", NULL};
 static const char *bcmd1[] = {"librewolf", NULL};
 static const char *browserCmd[] = {"firefox", NULL};
